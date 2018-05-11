@@ -7,4 +7,5 @@ import { Component } from "@angular/core";
 })
 export class AppComponent{
   title :string = 'The Dashboard component-binding-1';
+  branch1 : string = 'branch 1 string';
 }
