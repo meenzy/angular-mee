@@ -6,5 +6,5 @@ import { Component } from "@angular/core";
   templateUrl: './app.component.html'
 })
 export class AppComponent{
-  title :string = 'The Dashboard';
+  title :string = 'The Dashboardnknkj Data binding Branch 1';
 }
