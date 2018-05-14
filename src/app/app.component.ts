@@ -10,4 +10,5 @@ export class AppComponent{
   branch1 : string = 'branch 1 string';
   branch2 : string = 'branch 2 code';
   code : string = '200';
+  newCode : string = '222';
 }
