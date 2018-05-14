@@ -1,0 +1,61 @@
+D:\MyWorkspace\angular-mee>git remote add origin https://github.com/meenzy/angular-mee.git
+git commit -m "first commit"
+
+D:\MyWorkspace\angular-mee>git push -u origin master
+
+Counting objects: 38, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (36/36), done.
+Writing objects: 100% (38/38), 90.28 KiB | 3.01 MiB/s, done.
+Total 38 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/meenzy/angular-mee.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'
+
+
+
+git branch angular-mee-creating-component master
+
+git checkout angular-mee-creating-component
+output-Switched to branch 'angular-mee-creating-component'
+
+to create upstream
+git push --set-upstream origin angular-mee-creating-component
+
+
+
+
+
+Step 1: Switch to branch 'master'
+D:\MyWorkspace\angular-mee>git checkout master
+
+Step2: Create branch of master to work on
+D:\MyWorkspace\angular-mee>git branch angular-mee-data-binding master
+
+Step 3: Switch to branch newly created branch
+D:\MyWorkspace\angular-mee>git checkout angular-mee-data-binding
+Switched to branch 'angular-mee-data-binding'
+
+
+Step 4: to create upstream - when you wan to commit changes
+git push --set-upstream origin angular-mee-creating-component
+>>>>Branch 'component-binding-1' set up to track remote branch 'component-binding-1' from 'origin'.
+
+
+Step 5: commit your changes
+
+step 6: push the chnages into upstream branch
+git push origin 36e0d0eaa3c1cb0cf91d19f91487ee75aeed8f45:angular-mee-data-binding
+
+
+##Rebasing
+git rebase -i origin/angular-mee-data-binding
+
+
+##in case you want to revert a commit
+git revert -e c49b3901c19f3771283acb4b9e731f8baad4663d
+
+
+##delete a branch
+git branch -d angular-mee-data-binding

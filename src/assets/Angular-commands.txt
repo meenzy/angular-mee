@@ -1,0 +1,9 @@
+package.json
+
+start:
+"concurrently --kill-others \"ng build --watch --no-delete-output-path\" \"node serve\"
+
+command---
+npm start
+
+ng new angular-mee
