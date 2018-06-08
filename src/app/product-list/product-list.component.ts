@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { Product } from "../models/product";
 
 @Component({
     selector: 'product-list',
@@ -6,7 +7,8 @@ import { Component } from "@angular/core";
 })
 export class ProductComponent{
     pageTitle : string = 'Product List';
-    products : any = [
+    filterBy : string;
+    products : Product[] = [
         {
             "id": 1,
             "name": "Basil",
@@ -26,4 +28,13 @@ export class ProductComponent{
             "price": 150
         }
     ];
+    
+    filteredProducts : Product[]  = this.products;
+
+    filterList() : void {
+        console.log('filterBy :', this.filterBy);
+        this.filteredProducts = this.products.filter((product) => {
+            product.name.indexOf(this.filterBy) > -1;
+        });
+    }
 }

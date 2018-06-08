@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<General Information>
+<vendrorname>Test Vendor 1</vendrorname>
+<vendoraddress>test address as asfdjl gocvmfg</vendoraddress>
+<vendorcounty>test county</vendorcounty>
+<vendorpostcode>test 1234</vendorpostcode>
+<vendorcity>test city</vendorcity>
+<vendorcountry>Argentina</vendorcountry>
+<vendorheadoffice>test head office</vendorheadoffice>
+<vendorcontactname>test contact name</vendorcontactname>
+<vendorcontactemail>testcontactemail@gmail.com</vendorcontactemail>
+<vendorcontactphone>2223344</vendorcontactphone>
+<mdmid>1001</mdmid>
+<vqownership>test VQ wonership</vqownership>
+</General Information>
+<VQ Status>
+<vqpriority>test prioity 1</vqpriority>
+<bvrecommendation_siteaudit>Yes</bvrecommendation_siteaudit>
+<bvrecommendation>Site Audit Required</bvrecommendation>
+<bvexplanations>test BV Explanations</bvexplanations>
+<sbmdecisiontoaudit>Yes</sbmdecisiontoaudit>
+<sbmrepresentative>Yes</sbmrepresentative>
+<disciplinestobeaudited>test disciplines to be audited</disciplinestobeaudited>
+<sbmreasons>test sbm reasons</sbmreasons>
+<vqstatus>SBM Request transferred to BV</vqstatus>
+<sbmrequesttransferredtobvdate>05/01/18</sbmrequesttransferredtobvdate>
+<qualilauncheddate>05/02/18</qualilauncheddate>
+<vendorcompletedocdate>05/03/18</vendorcompletedocdate>
+<bvdocumentationreviewdate>05/04/18</bvdocumentationreviewdate>
+<bvfinalrecodate>05/05/18</bvfinalrecodate>
+<qualificationdate>05/06/18</qualificationdate>
+<signedvqr>1.JPG</signedvqr>
+</VQ Status>
+<Product>
+<products>BLK.ARC.AWK.CEI - Ceilings - D,BLK.ARC.AWK.ISL - Insulation - D,BLK.ARC.AWK.WAL - Walls - D</products>
+<highestcriticalitylevel>D</highestcriticalitylevel>
+</Product>
+<Company information>
+<threeyearsprofit>2.JPG</threeyearsprofit>
+<annualreportoflastyear></annualreportoflastyear>
+</Company information>
+<Product Information>
+<productcataloguesdocuments>3.JPG</productcataloguesdocuments>
+</Product Information>
+<SBM Charter>
+<sbmcharter>4.JPG</sbmcharter>
+</SBM Charter>
+<Qualification Questionnaires>
+<allquestionnaires>5.JPG</allquestionnaires>
+<qqbvcomments>test Qualification questionnaires bv comments</qqbvcomments>
+<qqbvdocuments>6.JPG</qqbvdocuments>
+</Qualification Questionnaires>
+<Supply Chain>
+<scmchecklist>test scm checklist</scmchecklist>
+<supplychainallauditreports>7.JPG</supplychainallauditreports>
+<scbvcomments>test supply chain bv comments</scbvcomments>
+<scbvdocuments>8.JPG</scbvdocuments>
+</Supply Chain>
+<Technical>
+<technicalallauditreports>9.JPG</technicalallauditreports>
+<technicalbvcomments>test technical bv comments</technicalbvcomments>
+<technicalbvdocuments>10.JPG</technicalbvdocuments>
+</Technical>
+<QRM Management>
+<qualityrelateddocuments>11.JPG</qualityrelateddocuments>
+<isocertificate>12.JPG</isocertificate>
+<isocertificateexpirationdate>05/08/18</isocertificateexpirationdate>
+<qrmscoring>test  QRM scoring</qrmscoring>
+<tradesanctionflag>Yes</tradesanctionflag>
+<qrmmanagementallauditreports>13.JPG</qrmmanagementallauditreports>
+<qrmbvcomments>test QRM bv comments</qrmbvcomments>
+<qrmbvdocuments>14.JPG</qrmbvdocuments>
+</QRM Management>
+<HSSE>
+<ohsascertificate>34.pdf</ohsascertificate>
+<ohsascertificateexpirationdate>05/10/18</ohsascertificateexpirationdate>
+<hssescoring>test HSSE scoring</hssescoring>
+<hsseallauditreports>ISO Certificate 2018.pdf</hsseallauditreports>
+<hssebvcomments>test HSSE bv comments</hssebvcomments>
+<hssebvdocuments>temp.pdf</hssebvdocuments>
+</HSSE>
+<Compliance>
+<compliancecertificate>Test PDF File.pdf</compliancecertificate>
+<compliancecertificateexpirationdate>05/11/18</compliancecertificateexpirationdate>
+<findingsonbackground>Yes</findingsonbackground>
+<dateofexecution>05/14/18</dateofexecution>
+<lexisnexis></lexisnexis>
+<lexisnexisexecutiondate></lexisnexisexecutiondate>
+<bvrecommendationcompliance>Qualify Class D</bvrecommendationcompliance>
+<compliancebvexplanations>test compliance bv explanations</compliancebvexplanations>
+<ddquestionnairesupportingdoc>Test Text File.txt</ddquestionnairesupportingdoc>
+</Compliance>
+<TO BE COMPLETED BY BV Based on the list of documents required by SBM>
+</TO BE COMPLETED BY BV Based on the list of documents required by SBM>
+<Other Vendor Documentation>
+<variousvendordocuments>test.pdf</variousvendordocuments>
+</Other Vendor Documentation>
+<Action Plan>
+<actionandimprovementplans>Test.doc</actionandimprovementplans>
+</Action Plan>
