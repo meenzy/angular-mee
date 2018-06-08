@@ -6,14 +6,15 @@
         <div class="card-body">
             <div class="form-group">
                 <label for="filterText">Filter By:</label>
-                <input type="text" class="form-control" id="filterText"/>
+                <input type="text" class="form-control" id="filterText" [(ngModel)]="filterBy"
+                (keyup)="filterList($event)"/>
             </div>
             <div class="form-group">
-                <div>Filtered By:</div>
+                <div>Filtered By: {{filterBy}}</div>
             </div>
         </div>
     </div>
-    <div *ngIf='products && products.length'>
+    <div *ngIf='filteredProducts && filteredProducts.length'>
         <table class="table table-striped table-bordered table-hover">
             <thead>
                 <th>Product Name</th>
@@ -21,7 +22,7 @@
                 <th>Price</th>
             </thead>
             <tbody>
-                <tr *ngFor='let product of products'>
+                <tr *ngFor='let product of filteredProducts'>
                     <td>{{product.name}}</td>
                     <td>{{product.type}}</td>
                     <td>{{product.price}}</td>
